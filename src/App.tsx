@@ -123,10 +123,9 @@ class App extends React.Component<IAppProps, IAppState> {
 
 		} else if (this.state.selectedOption_firstcategory == "Realm Armor") {
 			this.setState({ selectedOption_firstcategory: "All First Category Types" })
-
-		}
-		
+		}		
 	}
+
 	render() {
 
 		const items = this.getRenderedItems();
@@ -135,10 +134,6 @@ class App extends React.Component<IAppProps, IAppState> {
 				<div className="container">
 
 					<div className="filterkes">
-
-
-
-
 
 						<Dropdown
 							className="dropdown_item"
